@@ -1,0 +1,117 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+li{
+	list-style: none;
+}	
+
+.top{
+	height: 100px;
+	background-color: white;
+	border-bottom: 2px solid gray;
+}
+.top img{
+	position: absolute;
+	top: 25px;
+	left: 170px;
+}
+.top .top-nav1 a{
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+	height: 100px;
+	font-size: 14px;
+}
+.top .top-nav1 .top-nav-item{
+	float: left;
+	list-style: none
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-left:40px;
+}
+.top .top-nav1 .top-nav-item:first-child{
+	margin-left: 270px;
+}
+.top .top-nav1 .top-nav-item a:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+/*
+  购物车部分
+*/
+.top .cart-shop{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	position: absolute;
+	right: 60px;
+	top:0px;
+}
+.top .cart-shop .cart-nav .sep{
+	position: absolute;
+	top: 1px;
+	right: 290px;
+	width: 1px;
+	height: 1px;
+	color: #ccc;
+}
+.top .cart-shop .cart-nav .fa-user{
+	position: absolute;
+	top: 44px;
+	right: 240px;
+}
+.top .cart-shop .cart-nav .fa-shopping-bag{
+	position: absolute;
+	top: 44px;
+	right: 180px;
+}
+.top .cart-shop .link:first-child i{
+	font-size: 18px;
+	vertical-align: -1px;
+}
+.top .cart-shop .link i{
+	color: #aaa;
+	font-size: 16px;
+}
+.top .cart-shop .link:hover i{
+	color: #666;
+}
+.top .cart-shop .tankuang{
+	display: none;
+	position: absolute;
+	top: 80px;
+	right: 180px;
+	width: 360px;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 20px;
+	background: #fff;
+	z-index:999;
+	transition: all 0.3s linear;
+}
+.top .cart-shop .tankuang i{
+	font-size: 70px;
+	padding-top: 70px;
+	color: #aaa; 
+}
+.top .cart-shop .tankuang h3{
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.top .cart-shop .tankuang p{
+	color: #bcbcbc;
+	line-height:20px;
+}
+/* 导航栏部分*/
+.user-info{
+	height: 40px;
+	background: #232323;
+}

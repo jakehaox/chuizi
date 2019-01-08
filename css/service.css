@@ -1,0 +1,479 @@
+.top{
+	position: relative;
+	height: 45px;
+	background: #28292B;
+}
+	.top h1{
+		position: absolute;
+		left: 21px;
+		top: 13px;
+	}
+	.top .nav-logo{
+		width: 18px;
+		height: 18px;
+		background: url('../images/service-logo.png') no-repeat 50%;
+		background-size: contain;
+	}
+	.top-nav{
+		position: absolute;
+		left: 50%;
+		margin-left: -414px;
+	}
+	.nav-list{
+		width: 827px;
+		line-height: 45px;
+	}
+	.nav-list li{
+		float: left;
+		/* list-style: none; */
+		padding: 0 20px;
+		color: hsla(0,0%,100%,.7);
+		font-size: 12px;
+	}
+	.nav-list li:first-child{
+		margin-left: 0px;
+	}
+	.cart-box{
+		float: right;
+		margin: 13px 20px auto 21px;
+	}
+	.user-info{
+		float: left;
+		width: 18px;
+		height: 18px;
+		background: url('../images/service-user.png') no-repeat 50%;
+		background-size: contain;
+	}
+	.cart{
+		float: left;
+		width: 18px;
+		height: 18px;
+		background: url('../images/service-cart.png') no-repeat 50%;
+		background-size: contain;
+		margin-left: 20px;
+	}
+
+
+
+.header{
+	height: 65px;
+	background: #fff;
+}
+.header-nav {
+	height: 65px;
+	line-height: 65px;
+}
+.header-nav .nav-item{
+	float: left;
+	margin-left: 25px;
+}
+.header-nav .nav-item a{
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+}
+
+
+.home{
+	height: 620px;
+	background: url('../images/service-home.jpg') no-repeat;
+	background-size: 100%;
+	margin-bottom: 30px;
+}
+.main{
+	height: 1280px;
+	overflow: hidden;
+	background: #ededed;
+}
+.main .container-box{
+	overflow: hidden;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+.container-box h5{
+	padding-left: 45px;
+	color: #9f9f9f;
+	height: 60px;
+	line-height: 60px;
+	font-size: 130%;
+	font-weight: 400;
+	border-bottom: 1px solid #ececec;
+}
+.container-box .self-service-list{
+	border-bottom:  1px solid #ececec;
+}
+.container-box .self-service-list li{
+	position: relative;
+	float: left;
+	width: 203px;
+	height: 270px;
+	border-left: 1px solid #ececec;
+	text-align: center;
+	box-sizing: border-box;
+	transition: box-shadow 0.2s;
+}
+.container-box .self-service-list li:first-child{
+	background: url('../images/service-self-icon.png') no-repeat 70px 70px;
+	border-left: none;
+}
+.container-box .self-service-list li:nth-child(2){
+	background: url('../images/service-self-icon.png') no-repeat -132px 70px;
+}
+.container-box .self-service-list li:nth-child(3){
+	background: url('../images/service-self-icon.png') no-repeat -335px 70px;
+}
+.container-box .self-service-list li:nth-child(4){
+	background: url('../images/service-self-icon.png') no-repeat -537px 70px;
+}
+.container-box .self-service-list li:nth-child(5){
+	background: url('../images/service-self-icon.png') no-repeat -747px 70px;
+}
+.container-box .self-service-list li:nth-child(6){
+	background: url('../images/service-self-icon.png') no-repeat -947px 70px;
+}
+.container-box .self-service-list li:hover{
+	box-shadow: inset 0 0 38px rgba(0,0,0,.08);
+}
+.container-box .self-service-list li a{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-box .self-service-list li h3{
+	color: #333;
+	padding: 160px 0 10px;
+	line-height: 1em;
+}
+.container-box .self-service-list li p{
+	font-size: 12px;
+	color: #999;
+	line-height: 1em;
+}
+.container-box .self-service-list2{
+
+}
+.container-box .self-service-list2 li{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 200px;
+	padding: 55px 0 0 210px;
+	text-align: center;
+	border-left: 1px solid #ececec;
+	box-sizing: border-box;
+}
+.container-box .self-service-list2 li:first-child{
+	background: url('../images/service-page-accident.png') no-repeat 55px;
+	background-size: 185px auto;
+	border-left: none;
+}
+.container-box .self-service-list2 li:last-child{
+	background: url('../images/service-page-delay.jpg') no-repeat 55px;
+	background-size: 126px auto;
+}
+.container-box .self-service-list2 a{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-box .self-service-list2 h3{
+	font-size: 20px;
+	line-height: 1em;
+	color: #d44d44;
+	margin-bottom: 15px;
+}
+.container-box .self-service-list2 p{
+	font-size: 14px;
+	line-height: 1em;
+	color: #bbb;
+	margin-bottom: 30px;
+}
+.container-box .self-service-list2 span{
+	font-size: 14px;
+	line-height: 1em;
+	color: #5079d9;
+}
+/*
+ 常见问题 
+*/
+.sub-question .sub-question-item{
+	float: left;
+	width: 50%;
+	height: 122px;
+	padding: 38px 0 35px 120px;
+	box-sizing: border-box;
+}
+/* 为每个li添加背景 */
+.sub-question .sub-question-item:first-child{
+	background: url('../images/service-question-icon.png') no-repeat 35px 35px;
+	background-size: 54px auto;
+	border-bottom: 1px solid #ececec;
+}
+.sub-question .sub-question-item:nth-child(2){
+	background: url('../images/service-question-icon.png') no-repeat 35px -227px;
+	background-size: 54px auto;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+.sub-question .sub-question-item:nth-child(3){
+	background: url('../images/service-question-icon.png') no-repeat 35px -103px;
+	background-size: 54px auto;
+}
+.sub-question .sub-question-item:last-child{
+	background: url('../images/service-question-icon.png') no-repeat 35px -351px;
+	background-size: 54px auto;
+	border-left: 1px solid #ececec;
+}
+.sub-question-item h3{
+	line-height: 1em;
+	margin-bottom: 20px;
+	color: #333;
+	font-weight: 700;
+}
+.sub-question-item ul{
+	font-size: 12px;
+	line-height: 1em;
+	color: #999;
+	overflow: hidden;
+	margin-top: 12px;
+}
+.sub-question-item ul li{
+	float: left;
+	position: relative;
+	padding-left: 16px;
+}
+.sub-question-item ul li:first-child{
+	padding-left: 0;
+}
+.sub-question-item ul li a{
+	color: #969696;
+}
+
+.link-list .online-li:nth-child(1){
+	background: url('../images/service-contact-online.png') no-repeat center 75px;
+	background-size: 60px auto;
+	border-left: none;
+
+}
+.link-list .online-li:nth-child(2){
+	background: url('../images/service-contact-weibo.png') no-repeat center 75px;
+	background-size: 60px auto;
+}
+.link-list .online-li:nth-child(3){
+	background: url('../images/service-contact-weixin.png') no-repeat center 75px;
+	background-size: 60px auto;
+}
+.link-list .online-li:nth-child(4){
+	background: url('../images/service-contact-jd.png') no-repeat center 75px;
+	background-size: 60px auto;
+}
+.link-list .online-li:nth-child(5){
+	background: url('../images/service-contact-tmall.png') no-repeat center 75px;
+	background-size: 60px auto;
+}
+.link-list .online-li{
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 20%;
+	height: 270px;
+	padding: 160px 0 70px;
+	border-left: 1px solid #ececec;
+	box-sizing: border-box;
+}
+.link-list .online-li a{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.link-list .online-li h3{
+	font-size: 16px;
+	line-height: 1em;
+	color: #333;
+	margin-bottom: 12px;
+}
+.link-list .online-li p{
+	font-size: 12px;
+	line-height: 1em;
+	color: #999;
+}
+
+
+.footer{
+	height: 344px;
+	background: #fafafa;
+	border-top: 1px solid #e6e6e6;
+}
+.site-info{
+	position: relative;
+	height: 100px;
+	padding: 60px 0 55px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.site-info .footer-nav{
+	width: 149px;
+	line-height: 1;
+	float: left;
+}
+.site-info .footer-nav dt{
+	font-size: 12px;
+	font-weight: 700;
+	color: #646464;
+	padding: 0 0 20px;
+}
+.site-info .footer-nav dd{
+	color: #c3c3c3;
+	font-size: 12px;
+	padding: 8px 0;
+}
+.site-info .footer-service{
+	position: absolute;
+	right: 0;
+	text-align: right;
+	overflow: hidden;
+	line-height: 34px;
+}
+.site-info .footer-service .tel{
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 900;
+	color: #5079d9;
+	position: relative;
+	top: -1px;
+}
+.site-info .footer-service .time{
+	position: relative;
+	right: 1px;
+	width: 241px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #999;
+	text-align: right;
+}
+.site-info .footer-service .online-help{
+	text-align: right;
+	width: 241px;
+	line-height: 18px;
+	color: #999;
+	text-align: right;
+}
+.site-info .footer-service .online-help a{
+	float: right;
+	width: 102px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 0 0 0 30px;
+	margin-top: 15px;
+	text-align: left;
+	color: #5079d9;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+
+	transition: all 0.15s ease-out;
+}
+.footer-service .online-help .iconfont{
+	font-size: 14px;
+	margin-right: 4px;
+	position: relative;
+	top: -1px;
+}
+.language-switch{
+	position: absolute;
+	right: -20px;
+	bottom: -62px;
+	z-index: 21;
+	line-height: 30px;
+	width: 118px;
+}
+.language-select{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 51px;
+	/* visibility: hidden; */
+	/* opacity: 0; */
+	border-radius: 8px;
+}
+.language-select-item{
+	display: none;
+	border-bottom: 1px solid #ebebeb;
+}
+.language-select-item a{
+	background: #fff;
+	position: relative;
+	display: block;
+	color: #666;
+	line-height: 33px;
+	padding: 10px 20px 10px 44px;
+}
+.language-switch .language-name{
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 30px;
+}
+.language-switch .language-name a{
+	color: #45474b;
+	line-height: 33px;
+	padding: 10px 20px 10px 44px;
+	position: relative;
+}
+.language-switch .language-name .flage-cn:before{
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 15px;
+	left: 19px;
+	top: 12px;
+	background: url(../images/service-flag.png) 0 0 no-repeat;
+	background-size: 16px 80px;
+}
+
+.copyright{
+	color: #434d55;
+	font-size: 12px;
+	padding: 30px 0 60px;
+}
+.copyright h4{
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	color: #bdbdbd;
+	font-family: SmartisanMaquette;
+}
+.copyright h5{
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	color: #bdbdbd;
+	font-family: SmartisanMaquette;
+}
+.copyright .privacy{
+	float: left;
+	margin:0 0 0 12px;
+}
+.copyright .privacy li{
+	float: left;
+	line-height: 12px;
+	padding: 1px 10px 0;
+	border-left: 1px solid #ccc;
+}
+.copyright h6{
+	clear: both;
+	padding: 10px 0 0;
+	font-size: 0;
+	font-weight: 400;
+}
