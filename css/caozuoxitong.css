@@ -8,11 +8,14 @@ li{
 
 .top{
 	height: 100px;
-	background-color: white;
+	background-color: #fdfdfc;
 	border-bottom: 2px solid gray;
 }
 .top img{
 	position: absolute;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
 	top: 25px;
 	left: 170px;
 }
@@ -113,5 +116,62 @@ li{
 /* 导航栏部分*/
 .user-info{
 	height: 40px;
-	background: #232323;
+	background: #fdfdfc;
+	border-bottom: 2px solid gray;
+
+}
+.user-info .user-info-item a{
+	float: left;
+	font-size: 12px;
+	margin-left: 30px;
+	line-height: 40px;
+	text-align:center;
+    color: #666; 	
+}
+.user-info .user-info-item:first-child{
+	margin-left: 160px;
+}
+.user-info .user-info-item a:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+.user-info .user-info-item .checked{
+    color: black;
+    font-weight: bold;
+}
+.user-info .user-info-right{
+	float: right;
+	font-size: 12px;
+	line-height: 40px;
+	margin-right:200px;
+	color: #666;
+	text-align: center;
+}
+.user-info .user-info-right a:hover{
+	color: black;
+    font-weight: bold;
+    transition: transform 0.2s linear;
+}
+.user-info .user-info-right a{
+	color: #666;
+}
+
+.user-info .user-info-right .box{
+	float: right;
+	display: inline-block;
+	margin: 7px -20px 7px 50px;
+	width:80px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	color: white;
+	background-color: #2c51a4;
+	border: 1px solid;
+	border-radius: 11%;
+	cursor: pointer;
+	font-weight: bold;
+}
+.user-info .user-info-right .box:hover{
+    background-color: #003567;
 }
