@@ -2,11 +2,7 @@
   设计 css部分
 
 */
-    
-
-
-
-
+ 
 a{
 	text-decoration: none;
 	cursor: pointer;
@@ -183,6 +179,9 @@ li{
 	height: 948px;
 	background-repeat: no-repeat;
 }
+.user-info .user-info-right .bb{
+	margin-top: -2px;
+}
 .describe{
 	position: relative;
     height: 1031px;
@@ -206,8 +205,7 @@ li{
 	color: #776451;
 	margin-top: 30px;
 }
-.describe img{
-	display: inline-block;
+.describe .describe-list li{
 	float: left;
 	width: 252px;
 	height: 504px;
@@ -215,11 +213,28 @@ li{
 	margin-left: 60px;
 }
 .span-content .left-arrow{
+	position: absolute;
+	top: 845px;
+	left: 600px;
 	border-radius: 50%;
-	width: 5px;
-	height: 5px;
-	background-color: #f60;
-	
+	width: 13px;
+	height: 13px;
+	text-align: center;
+	vertical-align: -2px;
+	border:1px solid #b5b3bd;
+	cursor: pointer;
+}
+.span-content .right-arrow{
+    position: absolute;
+	top: 845px;
+	right: 600px;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	text-align: center;
+	vertical-align: -2px;
+	border:1px solid #b5b3bd;
+	cursor: pointer;
 }
 .span-content .name{
     font-size: 18px;
@@ -247,7 +262,7 @@ li{
 }
 .span-content .wire{
 	position: relative;
-	margin-top: 940px;
+	margin-top: 180px;
 	border-bottom: 2px dashed #ccc;
 }
 .span-content .wire .cicle{

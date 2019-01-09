@@ -4,17 +4,12 @@
    处理导航栏部分
 */
 
-// window.onload = function(){
-// 	var oUl = document.querySelector('.top-nav1');
-// 	var oLi = document.querySelectorAll('.top-nav-item');
-// 	oLi.onmouseover = function(){
-// 		oLi.style.backgroundColor = 'white';
-// 		oLi.style.fontWeight = 'bold';
-// 	}
-// 	oLi.onmouseout = function(){
-// 		oLi.style.backgroundColor = '#666';
-// 	}
-// }
+/* 坚果R1-设计 图片选项卡*/
+headleElecProduct();
+function headleElecProduct(){
+   var aDescribeList = document.querySelector('.describe .describe-list');
+   var 
+}
 
 window.onload = function(){
 	// 顶部导航购物车js
