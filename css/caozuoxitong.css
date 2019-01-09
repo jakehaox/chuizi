@@ -175,3 +175,141 @@ li{
 .user-info .user-info-right .box:hover{
     background-color: #003567;
 }
+.content{
+	position: relative;
+	width: 1583px;
+	height: 1260px;
+	background-color: #efefef;
+}
+.content .cz1{
+	position: absolute;
+	background-image: url(../images/caozuo11.png);
+	width: 256px;
+	height: 272px;
+	top: 100px;
+	left: 50%;
+	margin-left: -129px;
+}
+.content .txt1{
+	position: absolute;
+	top: 425px;
+	left: 50%;
+	color: #323232;
+	font-size: 36px;
+	margin-left: -146px;
+}
+.content .txt2{
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	color: #a59c9e;
+	margin-left: -395.5px;
+	font-size: 18px;
+}
+.content .txt3{
+	position: absolute;
+	top: 535px;
+	left: 50%;
+	margin-left: -395.5px;
+	font-size: 18px;
+	color: #a59c9e;
+}
+.content .txt4{
+	position: absolute;
+	top: 575px;
+	left: 50%;
+	margin-left: -399px;
+	font-size: 18px;
+	color: #a59c9e;
+}
+.content .aa{
+	position: absolute;
+	top: 675px;
+	left: 50px;
+}
+.content2{
+	position: relative;
+	width: 2700px;
+}
+.content2 .bb{
+	display: inline-block;
+	width: 1583px;
+	height: 307px;
+}
+.content2 .cc{
+	width: 1583px;
+	height: 948px;
+	margin-top: -3px;
+}
+.content2 .txt1{
+	position: absolute;
+	top: 1428px;
+	left: 50%;
+	margin-left: -642px;
+	font-size: 34px;
+}
+.content2 .txt2{
+	position: absolute;
+	top: 1508px;
+	left: 50%;
+	font-size: 18px;
+	margin-left: -786.5px;
+	color: #b4b1ab;
+}
+.content2 .txt3{
+	position: absolute;
+	top: 1548px;
+	left: 50%;
+	font-size: 18px;
+	margin-left: -826.5px;
+	color: #b4b1ab;
+}
+.content2 .dd{
+	position: absolute;
+	top: 1608px;
+	left: 35px;
+}
+.content2 .wirt{
+	position: absolute;
+	top: 2318px;
+	left: 350px;
+	width: 882px;
+	height: 1px;
+	background-color: #b4b1ab;
+}
+.content3{
+	position: relative;
+	height: 3065px; 
+}
+.content3 .aa{
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+    margin-left: -96px;
+}
+.content3 .txt1{
+	position: absolute;
+	top: 1390px;
+	left: 50%;
+	font-size: 44px;
+	color: #323232;
+	margin-left: -46px;
+}
+.content3 .txt2{
+	position: absolute;
+	top: 1460px;
+	left: 50%;
+	margin-left: -166px;
+	font-size: 18px;
+	color: #b199a6;
+}
+.content3 .txt3{
+	position: absolute;
+	top: 1500px;
+	left: 50%;
+	margin-left: -395px;
+	font-size: 18px;
+	color: #b199a6;
+}
+
+}
