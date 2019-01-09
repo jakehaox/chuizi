@@ -279,7 +279,7 @@ li{
 }
 .content3{
 	position: relative;
-	height: 3065px; 
+	height: 2715px; 
 }
 .content3 .aa{
     position: absolute;
@@ -311,5 +311,63 @@ li{
 	font-size: 18px;
 	color: #b199a6;
 }
-
+.content3 .bb{
+	position: absolute;
+	top: 1560px;
+	left: 440px;
 }
+.content3 .cc{
+	position: absolute;
+	top: 1560px;
+	right: 440px;
+}
+.content3 .dd{
+	position: absolute;
+	top: 2240px;
+	left: 50%;
+	margin-left: -257.5px;
+}
+.content3 .txt4{
+	position: absolute;
+	top: 2520px;
+	left: 50%;
+	margin-left: -34px;
+	font-size: 17px;
+	color: #32324a;
+}
+.content3 .txt5{
+	position: absolute;
+	top: 2570px;
+	left: 50%;
+    margin-left: -305px;
+	font-size: 17px;
+	color: #32324a;
+}
+.content3 .txt6{
+	position: absolute;
+	top: 2600px;
+	left: 50%;
+    margin-left: -305px;
+	font-size: 17px;
+	color: #32324a;
+}
+.content3 .wirt{
+	position: absolute;
+	top: 2650px;
+	left: 350px;
+	width: 882px;
+	height: 1px;
+	background-color: #b4b1ab;
+}
+.foot{
+	position: relative;
+	height: 1000px;
+}
+.foot .bottom-content .txt1{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    font-size: 42px;
+    color: #323232;
+}
+
