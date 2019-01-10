@@ -180,7 +180,7 @@ li{
 /*中间图片区域*/
 .content{
 	position: relative;
-	height: 10000px;
+	height: 8000px;
 }
 .content .aa{
 	display: inline-block;
@@ -253,11 +253,152 @@ li{
 	top: 5880px;
 	left: 50%;
 	margin-left: -470px;
-
 }
 .content img:nth-child(13){
-	
+	position: absolute;
+	top: 6520px;
+	left: 50%;
+	margin-left: -472px;
 }
 .content img:nth-child(14){
-	
+	position: absolute;
+	top:6900px;
+	left: 50%;
+	margin-left: -485.5px;
+}
+.content img:nth-child(15){
+	position: absolute;
+	top:7550px;
+	left: 50%;
+	margin-left: -477.5px;
+}
+/*底部样式*/
+.footer{
+	border-top: 1px solid #ccc;
+}
+.footer .foot-list{
+	height: 120px;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 60px 0px;
+}
+.footer .foot-list .left-list{
+	height: 110px;
+}
+.footer .foot-list .left-list dl{
+	float: left;
+	margin-right: 90px;
+	box-sizing: border-box;
+}
+.footer .foot-list .left-list dl dt{
+	font-weight: 700;
+	color: #646464;
+}
+.footer .foot-list .left-list dl dd{
+	margin-top: 10px;
+}
+.footer .foot-list .left-list dl dd .link{
+	color: #969696;
+}
+.footer .foot-list .left-list dl dd:nth-child(2){
+	margin-top: 30px;
+}
+.footer .foot-list .left-list dl dd .link:hover{
+	color: #5079d9;
+}
+.footer .foot-list .right-list{
+	text-align: right;
+}
+.footer .foot-list .right-list .num{
+	font-size: 18px;
+	color: #5079d9;
+	font-weight: 1000;
+}
+.footer .foot-list .right-list .time{
+	color: #999;
+	margin-top: 13px;
+}
+.footer .foot-list .right-list .txt{
+	color: #999;
+	margin-top: 2px;
+}
+.footer .foot-list .right-list .help{
+	float: right;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #d0d0d0;
+	color: #5079d9;
+	background: #f5f5f5;
+	border-radius: 5px;
+	font-weight: 700;
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+.footer .foot-list .right-list .help i{
+	font-size: 14px;
+	padding-right: 6px;
+}
+.footer .foot-nav{
+	padding: 30px 0px 60px;
+}
+.footer .foot-nav .left-nav .bottom{
+	line-height: 35px;
+}
+.footer .foot-nav .left-nav .top1 li{
+	float: left;
+	margin-left: 8px;
+}
+.footer .foot-nav .left-nav .top1 li .link{
+	color: #bdbdbd;
+}
+.footer .foot-nav .left-nav .top1 li:hover .link{
+	color: #5079d9;
+}
+.footer .foot-nav .left-nav .top1 li:nth-child(1){
+	color: #bdbdbd;
+	margin-left: 0px;
+}
+.footer .foot-nav .left-nav .top1 li span{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background: #ccc;
+	margin-left: 8px;
+	vertical-align: -2px;
+}
+.footer .foot-nav .left-nav .bottom li{
+	float: left;
+	margin-left: 20px;
+}
+.footer .foot-nav .left-nav .bottom li:nth-child(1){
+	margin-left: 0px;
+}
+.footer .foot-nav .left-nav .bottom li .link{
+	color: #bdbdbd;
+}
+.footer .foot-nav .right-nav .link{
+	display: inline-block;
+	height: 50px;
+}
+.footer .foot-nav .right-nav .link div{
+	display: inline-block;
+	width: 14px;
+	height: 11px;
+	border: 1px solid #c4c4c4;
+	background-image: url(../images/hongxing.jpg);
+	background-repeat: no-repeat;
+	background-size: 16px 14px;
+	vertical-align: -2px;
+	margin-right: 6px;
+}
+.footer .foot-nav .right-nav .link span{
+	color: #45474b;
+	font-weight: 400;
+	margin-right: 18px;
+}
+.footer .foot-nav .right-nav .link i{
+	font-size: 12px;
+	font-weight: 400;
+	color: #bdbdbd;
 }
