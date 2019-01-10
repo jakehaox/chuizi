@@ -4,7 +4,7 @@ a{
 }
 li{
 	list-style: none;
-}
+}	
 
 .top{
 	height: 100px;
@@ -18,12 +18,15 @@ li{
 }
 .top .top-nav1 a{
 	float: left;
+	text-decoration: none;
+	cursor: pointer;
 	color: #666;
 	height: 100px;
 	font-size: 14px;
 }
 .top .top-nav1 .top-nav-item{
 	float: left;
+	list-style: none
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
@@ -32,7 +35,7 @@ li{
 .top .top-nav1 .top-nav-item .checked{
 	color: white;
     font-weight: bold;
-}	
+}
 .top .top-nav1 .top-nav-item:first-child{
 	margin-left: 270px;
 }
@@ -41,13 +44,16 @@ li{
     font-weight: bold;
     transition: all 0.2s linear;
 }
-/* 购物车弹窗样式*/
+
+/*
+  购物车部分
+*/
 .top .cart-shop{
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
 	position: absolute;
-	right: 0px;
+	right: 60px;
 	top:0px;
 }
 .top .cart-shop .cart-nav .sep{
@@ -90,7 +96,7 @@ li{
 	text-align: center;
 	line-height: 20px;
 	background: #fff;
-	z-index: 9999;
+	z-index:999;
 	transition: all 0.3s linear;
 }
 .top .cart-shop .tankuang i{
@@ -102,16 +108,20 @@ li{
 	font-size: 18px;
 	color: #333;
 	font-weight: 400;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 .top .cart-shop .tankuang p{
 	color: #bcbcbc;
 	line-height:20px;
 }
-
+/* 导航栏部分*/
 .user-info{
 	height: 40px;
 	background: #232323;
+}
+.user-info .user-info-item .checked{
+    color: white;
+    font-weight: bold;
 }
 .user-info .user-info-item a{
 	float: left;
@@ -122,29 +132,26 @@ li{
     color: #666; 	
 }
 .user-info .user-info-item:first-child{
-	margin-left: 160px;
+	margin-left: 150px;
+	
 }
 .user-info .user-info-item a:hover{
     color: white;
     font-weight: bold;
     transition: transform 0.2s linear;
 }
-.user-info .user-info-item .checked{
-	color: white;
-    font-weight: bold;
-}
 .user-info .user-info-right{
 	float: right;
 	font-size: 12px;
 	line-height: 40px;
-	margin-right:200px;
+	margin-right:260px;
 	color: #666;
 	text-align: center;
 }
 .user-info .user-info-right a:hover{
 	color: white;
     font-weight: bold;
-    transition:all 0.5s linear;
+    transition: transform 0.4s linear;
 }
 .user-info .user-info-right a{
 	color: #666;
@@ -156,24 +163,23 @@ li{
 .user-info .user-info-right .box{
 	float: right;
 	display: inline-block;
-	margin: 7px 0px 7px 50px;
+	margin: 7px -20px 7px 50px;
 	width:80px;
 	height: 26px;
 	line-height: 26px;
 	font-size: 12px;
+	font-weight: bold;
 	color: white;
 	background-color: #2c51a4;
 	border: 1px solid;
-	border-radius: 11%;
-	cursor: pointer;
-	font-weight: bold;
+	border-radius: 12%;
 }
 .user-info .user-info-right .box:hover{
     background-color: #003567;
+    cursor: pointer;
 }
-.header .box{
-	background-color: #101010;
-}
+
+
 .header .header-nav .aa{
 	width: 100%;
 	height: 100%;

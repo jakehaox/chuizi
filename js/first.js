@@ -8,7 +8,7 @@
 headleElecProduct();
 function headleElecProduct(){
    var aDescribeList = document.querySelector('.describe .describe-list');
-   var 
+   
 }
 
 window.onload = function(){
