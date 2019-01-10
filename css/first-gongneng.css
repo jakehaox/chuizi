@@ -38,6 +38,10 @@ li{
 	text-align: center;
 	margin-left:40px;
 }
+.top .top-nav1 .top-nav-item .checked{
+	color: white;
+    font-weight: bold;
+}
 .top .top-nav1 .top-nav-item:first-child{
 	margin-left: 270px;
 }
