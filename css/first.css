@@ -22,11 +22,6 @@ li{
 	height: 100px;
 	font-size: 14px;
 }
-.top .top-nav1 a:hover{
-	color: white;
-    font-weight: bold;
-    z-index: 1000;
-}
 .top .top-nav1 .top-nav-item{
 	float: left;
 	height: 100px;
@@ -41,12 +36,12 @@ li{
     color: white;
     font-weight: bold;	
 }
-.top .top-nav1 .top-nav-item a:hover{
+/*.top .top-nav1 .top-nav-item a:hover{
     color: white;
     font-weight: bold;
     transition: transform 0.2s linear;
 }
-
+*/
 /*购物车弹窗*/
 
 .top .cart-shop{
