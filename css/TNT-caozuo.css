@@ -182,3 +182,179 @@ li{
 .user-info .user-info-right .box:hover{
     background-color: #003567;
 }
+.conctent{
+	position: relative;
+	height: 6000px;
+}
+.conctent .box{
+	background-image: url(../images/tnt-caozuo3.jpg);
+	background-repeat: no-repeat;
+	height: 1295px;
+}
+.conctent .aa{
+	display: inline-block;
+	position: absolute;
+	width: 128px;
+	height: 136px;
+	top: 50px;
+	left: 50%;
+	margin-left: -64px;
+}
+.conctent .txt1{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -107px;
+	font-size: 24px;
+	color: #cdcdae;
+}
+.conctent .txt2{
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	font-size: 12px;
+	color: #766e65;
+	margin-left: -284px;
+}
+.conctent .txt3{
+	position: absolute;
+	top: 270px;
+	left: 50%;
+	font-size: 12px;
+	color: #766e65;
+	margin-left: -285.5px;
+}
+.conctent .txt4{
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	font-size: 12px;
+	color: #766e65;
+	margin-left: -285px;
+}
+.conctent .txt5{
+	position: absolute;
+	top: 330px;
+	left: 50%;
+	font-size: 12px;
+	color: #766e65;
+	margin-left: -285px;
+}
+.conctent .lable{
+	position: absolute;
+	top: 370px;
+	left: 50%;
+	margin-left: -120.5px;
+}
+.conctent .bb{
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -174.5px;
+}
+.conctent .cc{
+	position: absolute;
+	top: 1300px;
+	left: 50%;
+	margin-left: -414px;
+}
+.conctent .dd{
+	position: absolute;
+	top: 1800px;
+	left: 50%;
+	margin-left: -473.5px;
+}
+
+.conctent .wirt{
+	position: absolute;
+	top: 2450px;
+	left: 50%;
+	width: 900px;
+	height: 1px;
+	background-color: #b4b1ab;
+	margin-left: -430px;
+}
+.conctent .wirt .txt1{
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-size: 46px;
+	color: #323232;
+}
+.conctent .wirt .txt2{
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	font-size: 16px;
+	color: #a4a3a4;
+	margin-left: -152px;
+}
+.conctent .wirt .txt3{
+	position: absolute;
+	top: 190px;
+	left: 50%;
+	font-size: 16px;
+	color: #a4a3a4;
+	margin-left: -318px;
+}
+.conctent .wirt .txt4{
+	position: absolute;
+	top: 230px;
+	left: 50%;
+	margin-left: -77px;
+	font-size: 16px;
+	color: #a4a3a4;
+}
+.conctent .wirt .ee{
+	position: absolute;
+	top: 270px;
+	left: 50%;
+	margin-left: -431px;
+}
+.conctent .sep{
+	position: absolute;
+	top: 930px;
+	left: 50%;
+	width: 900px;
+	height: 1px;
+	background-color: #b4b1ab;
+	margin-left: -430px;
+}
+.conctent .txt5{
+	position: absolute;
+	top: 1000px;
+	left: 50%;
+	margin-left: -427px;
+	font-size: 46px;
+	color: #323232; 
+}
+.conctent .txt6{
+	position: absolute;
+	top: 1100px;
+	left: 50%;
+	font-size: 16px;
+	color: #a4a3a4;
+	margin-left: -152px;
+}
+.conctent .txt7{
+   position: absolute;
+   top: 1140px;
+   left: 50%;
+   margin-left: -344px;
+   font-size: 16px;
+   color: #a4a3a4;
+}
+.conctent .txt8{
+   position: absolute;
+   top: 1180px;
+   left: 50%;
+   margin-left: -128px;
+   font-size: 16px;
+   color: #a4a3a4;
+}
+.conctent .wirt .ff{
+	position: absolute;
+	top: 1230px;
+	left: 50%;
+	margin-left: -464px;
+}
