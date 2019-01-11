@@ -7,21 +7,18 @@
 headleElecProduct();
 function headleElecProduct(){
 	//获取元素
-	var aTopNav1  = document.querySelectorAll('.top-nav1 .top-nav-item');
-	var aUserInfoList = document.querySelectorAll('.user-info-list .user-info-item');
+	var oDescribeList = document.querySelectorAll('.describe-list img');
+	var aLeftArrow = document.querySelector('.left-arrow');
+	var aRightArrow = document.querySelector('.right-arrow');
+	var aName = document.querySelector('.name');
+	var oTxt4 = document.querySelector('.txt4');
+	var oTxt5 = document.querySelector('.txt5');
+	var aYear = document.querySelector('.year');
 	//添加事件
-	for(var i = 0; i<aTopNav1.length;i++){
-        aTopNav1[i].index = i;
-        aTopNav1[i].onclick = function(){
-	       	for(var j = 0;j<aTopNav1.length;j++){
-	       		aTopNav1[i].style.color = 'white';
-       	        aTopNav1[i].style.fontWeight = 'bold';
-	            aTopNav1[j].className = 'top-nav-item';
-	       	}
-	       	this.className = 'top-nav-item checked';
-        }
+	for(var i =0;i<oDescribeList.length;i++){
+		console.log(oDescribeList);
 	}
-}
+	
 
 window.onload = function(){
 	// 顶部导航购物车js
@@ -33,7 +30,4 @@ window.onload = function(){
 	oLink.onmouseout = function(){
 		oTankuang.style.display = 'none';
 	}
-}
-
-      
-	
+}	
