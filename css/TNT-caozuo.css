@@ -184,7 +184,7 @@ li{
 }
 .conctent{
 	position: relative;
-	height: 6000px;
+	height: 5000px;
 }
 .conctent .box{
 	background-image: url(../images/tnt-caozuo3.jpg);
@@ -320,15 +320,15 @@ li{
 	background-color: #b4b1ab;
 	margin-left: -430px;
 }
-.conctent .txt5{
+.conctent .txt6{
 	position: absolute;
 	top: 1000px;
 	left: 50%;
 	margin-left: -427px;
-	font-size: 46px;
+	font-size: 42px;
 	color: #323232; 
 }
-.conctent .txt6{
+.conctent .txt7{
 	position: absolute;
 	top: 1100px;
 	left: 50%;
@@ -336,7 +336,7 @@ li{
 	color: #a4a3a4;
 	margin-left: -152px;
 }
-.conctent .txt7{
+.conctent .txt8{
    position: absolute;
    top: 1140px;
    left: 50%;
@@ -344,7 +344,7 @@ li{
    font-size: 16px;
    color: #a4a3a4;
 }
-.conctent .txt8{
+.conctent .txt9{
    position: absolute;
    top: 1180px;
    left: 50%;
@@ -357,4 +357,50 @@ li{
 	top: 1230px;
 	left: 50%;
 	margin-left: -464px;
+}
+.conctent .wirt .conctent2 .wirt2{
+	position: absolute;
+	top: 1900px;
+	left: 50%;
+	width: 850px;
+	height: 1px;
+	background-color: #b4b1ab;
+	margin-left: -430px;
+}
+.conctent .wirt .conctent2 .txt1{
+	position: absolute;
+	top: 1970px;
+	left: 50%;
+	font-size: 42px;
+	color: #323232; 
+	margin-left: -423.5px;
+}
+.conctent .wirt .conctent2 .txt2{
+	position: absolute;
+	top: 2060px;
+	left: 50%;
+	margin-left: -225px;
+	font-size: 16px;
+    color: #a4a3a4;
+}
+.conctent .wirt .conctent2 .txt3{
+	position: absolute;
+	top: 2090px;
+	left: 50%;
+	margin-left: -296px;
+	font-size: 16px;
+    color: #a4a3a4;
+}
+.conctent .wirt .conctent2 .gg{
+	position: absolute;
+	top: 2150px;
+	left: 50%;
+	margin-left: -515.5px;
+}
+.conctent .wirt .conctent2 .box2{
+	position: absolute;
+	top: 2200px;
+	left: 0;
+	background-image: url(../images/tnt-caozuo9.jpg);
+	width: 1583px;
 }
