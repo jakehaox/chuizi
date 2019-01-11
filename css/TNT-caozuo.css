@@ -182,9 +182,12 @@ li{
 .user-info .user-info-right .box:hover{
     background-color: #003567;
 }
+
+/*中间图片区域 双字母命名的类都代表图片*/
+
 .conctent{
 	position: relative;
-	height: 5000px;
+	height: 11300px;/*8250*/
 }
 .conctent .box{
 	background-image: url(../images/tnt-caozuo3.jpg);
@@ -271,7 +274,7 @@ li{
 	left: 50%;
 	width: 900px;
 	height: 1px;
-	background-color: #b4b1ab;
+	background-color: #e6e6e6;
 	margin-left: -430px;
 }
 .conctent .wirt .txt1{
@@ -317,7 +320,7 @@ li{
 	left: 50%;
 	width: 900px;
 	height: 1px;
-	background-color: #b4b1ab;
+	background-color: #e6e6e6;
 	margin-left: -430px;
 }
 .conctent .txt6{
@@ -364,7 +367,7 @@ li{
 	left: 50%;
 	width: 850px;
 	height: 1px;
-	background-color: #b4b1ab;
+	background-color: #e6e6e6;
 	margin-left: -430px;
 }
 .conctent .wirt .conctent2 .txt1{
@@ -399,8 +402,232 @@ li{
 }
 .conctent .wirt .conctent2 .box2{
 	position: absolute;
-	top: 2200px;
-	left: 0;
+	top: 2800px;
+	left: 0px;
+	margin-left: -360px;
 	background-image: url(../images/tnt-caozuo9.jpg);
+	background-repeat: no-repeat;
 	width: 1583px;
+	height: 736px;
+}
+.conctent .wirt .conctent2 .pp{
+	position: absolute;
+	top: 2830px;
+	left: 50%;
+	margin-left: -385.5px;
+}
+.conctent .wirt .qq{
+	position: absolute;
+	top:3630px;
+	left: 50%;
+	margin-left: -219.5px;
+}
+.conctent .wirt .RR{
+	position: absolute;
+	top: 4000px;
+	left: 50%;
+	margin-left: -442px;
+}
+.conctent .wirt .wirt3{
+	position: absolute;
+	top: 4650px;
+	left: 50%;
+	margin-left: -450px;
+	width: 900px;
+	height: 1px;
+	background-color: #e6e6e6;
+}
+.conctent .wirt .ss{
+	position: absolute;
+	top: 4750px;
+	left: 50%;
+	margin-left: -420px;
+}
+.conctent .wirt .tt{
+	position: absolute;
+	top: 5100px;
+	left: 50%;
+	margin-left: -430.5px;
+}
+.conctent .wirt .uu{
+	position: absolute;
+	top: 5800px;
+	left: 50%;
+	margin-left: -317px;
+}
+.conctent .wirt .vv{
+	position: absolute;
+	top: 6200px;
+	left: 50%;
+	margin-left: -430.5px;
+}
+.conctent .wirt .wirt4{
+	position: absolute;
+	top: 6850px;
+	left: 50%;
+	margin-left: -450px;
+	width: 900px;
+	height: 1px;
+	background-color: #e6e6e6;
+}
+.conctent .wirt .ww{
+	position: absolute;
+	top: 6900px;
+	left: 50%;
+	margin-left: -321.5px;
+}
+.conctent .wirt .zz{
+	position: absolute;
+	top: 7250px;
+	left: 50%;
+	margin-left: -427.5px;
+}
+.conctent .wirt .yy{
+	position: absolute;
+	top: 7900px;
+	left: 50%;
+	margin-left: -395px;
+}
+.conctent .wirt .last-img{
+	position: absolute;
+	top: 8200px;
+	left: 50%;
+	margin-left: -581.5px;
+}
+
+/*底部定义列表样式*/
+.foot{
+	position: relative;
+}
+.footer{
+	/*position: fixed;
+	top: 8750px;
+	left: 10px;*/
+	border-top: 1px solid #ccc;
+}
+.footer .foot-list{
+	height: 120px;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 60px 0px;
+}
+.footer .foot-list .left-list{
+	height: 110px;
+}
+.footer .foot-list .left-list dl{
+	float: left;
+	margin-right: 90px;
+	box-sizing: border-box;
+}
+.footer .foot-list .left-list dl dt{
+	font-weight: 700;
+	color: #646464;
+}
+.footer .foot-list .left-list dl dd{
+	margin-top: 10px;
+}
+.footer .foot-list .left-list dl dd .link{
+	color: #969696;
+}
+.footer .foot-list .left-list dl dd:nth-child(2){
+	margin-top: 30px;
+}
+.footer .foot-list .left-list dl dd .link:hover{
+	color: #5079d9;
+}
+.footer .foot-list .right-list{
+	text-align: right;
+}
+.footer .foot-list .right-list .num{
+	font-size: 18px;
+	color: #5079d9;
+	font-weight: 1000;
+}
+.footer .foot-list .right-list .time{
+	color: #999;
+	margin-top: 13px;
+}
+.footer .foot-list .right-list .txt{
+	color: #999;
+	margin-top: 2px;
+}
+.footer .foot-list .right-list .help{
+	float: right;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #d0d0d0;
+	color: #5079d9;
+	background: #f5f5f5;
+	border-radius: 5px;
+	font-weight: 700;
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+.footer .foot-list .right-list .help i{
+	font-size: 14px;
+	padding-right: 6px;
+}
+.footer .foot-nav{
+	padding: 30px 0px 60px;
+}
+.footer .foot-nav .left-nav .bottom{
+	line-height: 35px;
+}
+.footer .foot-nav .left-nav .top1 li{
+	float: left;
+	margin-left: 8px;
+}
+.footer .foot-nav .left-nav .top1 li .link{
+	color: #bdbdbd;
+}
+.footer .foot-nav .left-nav .top1 li:hover .link{
+	color: #5079d9;
+}
+.footer .foot-nav .left-nav .top1 li:nth-child(1){
+	color: #bdbdbd;
+	margin-left: 0px;
+}
+.footer .foot-nav .left-nav .top1 li span{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background: #ccc;
+	margin-left: 8px;
+	vertical-align: -2px;
+}
+.footer .foot-nav .left-nav .bottom li{
+	float: left;
+	margin-left: 20px;
+}
+.footer .foot-nav .left-nav .bottom li:nth-child(1){
+	margin-left: 0px;
+}
+.footer .foot-nav .left-nav .bottom li .link{
+	color: #bdbdbd;
+}
+.footer .foot-nav .right-nav .link{
+	display: inline-block;
+	height: 50px;
+}
+.footer .foot-nav .right-nav .link div{
+	display: inline-block;
+	width: 14px;
+	height: 11px;
+	border: 1px solid #c4c4c4;
+	background-image: url(../images/hongxing.jpg);
+	background-repeat: no-repeat;
+	background-size: 16px 14px;
+	vertical-align: -2px;
+	margin-right: 6px;
+}
+.footer .foot-nav .right-nav .link span{
+	color: #45474b;
+	font-weight: 400;
+	margin-right: 18px;
+}
+.footer .foot-nav .right-nav .link i{
+	font-size: 12px;
+	font-weight: 400;
+	color: #bdbdbd;
 }
