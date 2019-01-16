@@ -263,6 +263,9 @@ li{
 .footer .foot-list .left-list{
 	height: 110px;
 }
+.footer .foot-list .left-list dl:first-child{
+	margin-left: 150px;
+}
 .footer .foot-list .left-list dl{
 	float: left;
 	margin-right: 90px;
@@ -336,7 +339,7 @@ li{
 }
 .footer .foot-nav .left-nav .top1 li:nth-child(1){
 	color: #bdbdbd;
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .footer .foot-nav .left-nav .top1 li span{
 	display: inline-block;
@@ -351,7 +354,7 @@ li{
 	margin-left: 20px;
 }
 .footer .foot-nav .left-nav .bottom li:nth-child(1){
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .footer .foot-nav .left-nav .bottom li .link{
 	color: #bdbdbd;

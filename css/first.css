@@ -4,12 +4,12 @@ a{
 }
 li{
 	list-style: none;
-}
+}	
 
 .top{
 	height: 100px;
 	background-color: #100f0f;
-	border-bottom: 2px solid gray;
+	border-bottom: 1px solid gray;
 }
 .top img{
 	position: absolute;
@@ -18,38 +18,42 @@ li{
 }
 .top .top-nav1 a{
 	float: left;
+	text-decoration: none;
+	cursor: pointer;
 	color: #666;
 	height: 100px;
 	font-size: 14px;
 }
 .top .top-nav1 .top-nav-item{
 	float: left;
+	list-style: none
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
 	margin-left:40px;
-}	
+}
+.top .top-nav1 .top-nav-item .checked{
+	color: white;
+    font-weight: bold;
+}
 .top .top-nav1 .top-nav-item:first-child{
 	margin-left: 270px;
 }
-.top .top-nav1 .top-nav-item .checked{
-    color: white;
-    font-weight: bold;	
-}
-/*.top .top-nav1 .top-nav-item a:hover{
+.top .top-nav1 .top-nav-item a:hover{
     color: white;
     font-weight: bold;
-    transition: transform 0.2s linear;
+    transition: all 0.2s linear;
 }
-*/
-/*购物车弹窗*/
 
+/*
+  购物车部分
+*/
 .top .cart-shop{
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
 	position: absolute;
-	right: -20px;
+	right: 60px;
 	top:0px;
 }
 .top .cart-shop .cart-nav .sep{
@@ -110,13 +114,13 @@ li{
 	color: #bcbcbc;
 	line-height:20px;
 }
-
 /*
 *导航栏部分*
 */
 .user-info{
+	width: 100%;
 	height: 40px;
-	background: #232323;
+	background-color: #232323;
 }
 .user-info .user-info-item .checked{
     color: white;
@@ -143,7 +147,7 @@ li{
 	float: right;
 	font-size: 12px;
 	line-height: 40px;
-	margin-right:180px;
+	margin-right:260px;
 	color: #666;
 	text-align: center;
 }
@@ -181,6 +185,7 @@ li{
 	height: 880px;
 }
 .header .header-nav .aa{
+	margin-top: -2px;
 	display: inline-block;
 	width: 1583px;
 	height: 948px;
@@ -270,6 +275,9 @@ li{
 .foot .foot-list .left-list{
 	height: 110px;
 }
+.foot .foot-list .left-list dl:first-child{
+	margin-left: 150px;
+}
 .foot .foot-list .left-list dl{
 	float: left;
 	margin-right: 90px;
@@ -345,7 +353,7 @@ li{
 }
 .foot .foot-nav .left-nav .top1 li:nth-child(1){
 	color: #bdbdbd;
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .foot .foot-nav .left-nav .top1 li span{
 	display: inline-block;
@@ -360,7 +368,7 @@ li{
 	margin-left: 20px;
 }
 .foot .foot-nav .left-nav .bottom li:nth-child(1){
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .foot .foot-nav .left-nav .bottom li .link{
 	color: #bdbdbd;

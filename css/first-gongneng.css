@@ -15,7 +15,7 @@ li{
 .top{
 	height: 100px;
 	background-color: #100f0f;
-	border-bottom: 2px solid gray;
+	border-bottom: 1px solid gray;
 }
 .top img{
 	position: absolute;
@@ -204,6 +204,9 @@ li{
 .foot .foot-list .left-list{
 	height: 110px;
 }
+.foot .foot-list .left-list dl:first-child{
+	margin-left: 150px;
+}
 .foot .foot-list .left-list dl{
 	float: left;
 	margin-right: 90px;
@@ -279,7 +282,7 @@ li{
 }
 .foot .foot-nav .left-nav .top1 li:nth-child(1){
 	color: #bdbdbd;
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .foot .foot-nav .left-nav .top1 li span{
 	display: inline-block;
@@ -294,7 +297,7 @@ li{
 	margin-left: 20px;
 }
 .foot .foot-nav .left-nav .bottom li:nth-child(1){
-	margin-left: 0px;
+	margin-left: 150px;
 }
 .foot .foot-nav .left-nav .bottom li .link{
 	color: #bdbdbd;
