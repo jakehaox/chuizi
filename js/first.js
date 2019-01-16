@@ -26,12 +26,15 @@
 var oUserInfo = document.getElementById('user-info');
 var oUserInfoRight = document.getElementById('user-info-right');
 window.onscroll = function(){
+	console.log(oUserInfo)
 	getScrollTop();
 	if(getScrollTop() >= 100){
 		oUserInfo.style.position = 'fixed';
 		oUserInfo.style.top = '0px';
+		oUserInfo.style.zIndex = '99';
 	}else{
         oUserInfo.style.position = '';
+
 	}
 }
 // 顶部导航购物车js

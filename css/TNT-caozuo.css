@@ -12,7 +12,7 @@ li{
 .top{
 	height: 100px;
 	background-color: #fdfdfc;
-	border-bottom: 2px solid gray;
+	border-bottom: 1px solid gray;
 }
 .top img{
 	position: absolute;
@@ -122,9 +122,10 @@ li{
 }
 /* 导航栏部分*/
 .user-info{
+	width: 100%;
 	height: 40px;
 	background: #fdfdfc;
-	border-bottom: 2px solid gray;
+	border-bottom: 1px solid gray;
 
 }
 .user-info .user-info-item a{

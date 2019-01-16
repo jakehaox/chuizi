@@ -1,3 +1,4 @@
+
 /*
   设计 css部分
 
@@ -148,10 +149,10 @@ li{
 }
 .user-info .user-info-right{
 	float: right;
+	color: #666;
 	font-size: 12px;
 	line-height: 40px;
 	margin-right:260px;
-	color: #666;
 	text-align: center;
 }
 .user-info .user-info-right a:hover{
@@ -184,14 +185,15 @@ li{
     background-color: #003567;
     cursor: pointer;
 }
-.user-info .user-info-right .aa{
+.aa{
 	display: inline-block;
 	width: 1583px;
 	height: 948px;
 	background-repeat: no-repeat;
-}
-.user-info .user-info-right .bb{
 	margin-top: -2px;
+}
+.bb{
+	margin-top: -3px;
 }
 .describe{
 	position: relative;
